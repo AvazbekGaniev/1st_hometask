@@ -5,11 +5,15 @@ using namespace std;
 
 int main()
 {
-	const int array_size = 1;
+	const int array_size = 2;
 	Name *Names[array_size];
 	
 	Andrejs a;
 	a.setName("Andrejs");
+
+
+    Avazbek av;
+    az.setName("Avazbek");
 	
 	Names[0] = &a;
 	
